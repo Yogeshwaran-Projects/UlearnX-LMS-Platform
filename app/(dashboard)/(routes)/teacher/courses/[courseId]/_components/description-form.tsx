@@ -85,7 +85,8 @@ export const DescriptionForm = ({
                                     <FormControl>
                                         <Textarea
                                             disabled={isSubmitting}
-                                            placeholder="e.g. 'This course is about...'"
+                                           placeholder="e.g. &apos;About the course&apos;" 
+
                                             {...field}
                                             className="text-white font-medium"
                                         />

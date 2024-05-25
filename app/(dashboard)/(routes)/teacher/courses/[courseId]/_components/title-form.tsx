@@ -88,7 +88,9 @@ try{
                                     <FormControl>
                                         <Input className="text-white"
                                         disabled={isSubmitting}
-                                        placeholder="e.g 'AI Python Development"
+
+                                        placeholder="e.g. &apos;AI Python Development&apos;" 
+
                                         {...field}
                                         />
                                     </FormControl>

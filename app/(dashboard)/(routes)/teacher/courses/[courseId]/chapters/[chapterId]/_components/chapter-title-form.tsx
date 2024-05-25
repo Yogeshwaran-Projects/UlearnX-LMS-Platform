@@ -88,7 +88,7 @@ try{
                                     <FormControl>
                                         <Input className="text-white"
                                         disabled={isSubmitting}
-                                        placeholder="e.g 'Introduction to the chapter"
+                                        placeholder="e.g &apos;Introduction to the chapter"
                                         {...field}
                                         />
                                     </FormControl>

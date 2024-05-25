@@ -115,7 +115,8 @@ export const  ChaptersForm = ({
                             <FormItem>
                                 <FormControl>
                                     <Input className="text-white" disabled={isSubmitting}
-                                    placeholder="e.g. 'Introduction about the course'"
+                                    type="text" placeholder="e.g. &apos;Introduction about the course&apos;" 
+
                                     {...field}
                                     />
                                 </FormControl>
